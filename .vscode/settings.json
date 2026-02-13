@@ -1,0 +1,21 @@
+{
+  "editor.suggest.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.snippetSuggestions": "none",
+  "editor.tabCompletion": "off",
+  "editor.suggestOnTriggerCharacters": false,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "python.analysis.completeFunctionParens": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.languageServer": "None"
+}
