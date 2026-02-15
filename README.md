@@ -11,3 +11,13 @@ Built using only `numpy` and two core ideas:
 - **Deflation** — peel it off, find the next
 
 📓 [`svd/svd.ipynb`](svd/svd.ipynb)
+
+## PCA (Principal Component Analysis)
+
+Finds the directions that matter most in your data — dimensionality reduction via SVD on centered data.
+
+Built on top of the SVD implementation above:
+- **Center** the data, compute eigenvectors of AᵀA
+- **Project** onto the top-k principal components
+
+📓 [`pca/pca.ipynb`](pca/pca.ipynb)
